@@ -36,7 +36,7 @@ class FoojayHelperTest {
                 () -> assertEquals("Frank Delporte", authors.getFirst().name(), "Name 1"),
                 () -> assertEquals("https://foojay.io/wp-content/uploads/2025/05/cropped-frank-delporte-scaled-1-80x80.jpg", authors.getFirst().picture(), "Picture 1"),
                 () -> assertEquals("https://bsky.app/profile/frankdelporte.be", authors.getFirst().bluesky(), "Bluesky 1"),
-                () -> assertEquals("https://bsky.app/profile/frankdelporte.be", authors.getFirst().getSocialLink(SocialPlatform.BLUESKY), "Bluesky 1"),
+                () -> assertEquals("@frankdelporte.be", authors.getFirst().getSocialLink(SocialPlatform.BLUESKY), "Bluesky 1"),
                 () -> assertEquals("https://www.linkedin.com/in/frankdelporte/", authors.getFirst().linkedIn(), "LinkedIn 1"),
                 () -> assertEquals("https://foojay.social/@FrankDelporte", authors.getFirst().mastodon(), "Mastodon 1"),
 

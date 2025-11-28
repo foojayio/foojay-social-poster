@@ -8,7 +8,10 @@ Little JavaFX project that:
     * Shows the post in the preview window
     * Loads the author profile(s) to include correct links
     * Generates messages in the correct format with a maximum length
-* TODO: Messages can be published with a push on the button
+
+Still to do:
+
+* Publish messages directly with a push on the button, but maybe that's not the ideal approach as a manual step may still be needed to valid the links to the authors.
 
 ## Configuration
 
